@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+body {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2, h3, h4 {
+    color: darkcyan;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+header {
+    background-color: darkcyan;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+main {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.bloqueAnimales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.animal:hover h5 {
+    color: rgb(193, 193, 10);
+}
+
+.bloqueAnimales img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.bloqueAnimales img:hover {
+    width: 280px;
+    height: 170px;
+    cursor: pointer;
+}
+
+.bloqueAnimales h5 {
+    margin: 0;
+    font-size: 16px;
+    padding-left: 8px;
+    transition: 0.3s;
+    border-left: 3px solid rgb(193, 193, 10);
+}
+
+footer {
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+}
